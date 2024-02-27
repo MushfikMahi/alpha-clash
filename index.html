@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme = 'light'>
+<html lang="en" data-theme='light'>
 
 <head>
     <meta charset="UTF-8">
@@ -36,15 +36,17 @@
         <section id="play-ground" class="hidden">
             <div class="flex flex-col items-center gap-20 pt-20">
                 <!-- screnn -->
-                <div class="artboard artboard-horizontal phone-6 border-[20px] rounded-2xl border-[#010313cc] bg-[#ffffffb3]">
+                <div id="art-board"
+                    class="artboard artboard-horizontal phone-6 border-[20px] rounded-2xl border-[#010313cc] bg-[#ffffffb3]">
                     <div class="flex justify-center">
-                        <p class="text-white bg-[#2F2941] px-6 pb-4 rounded-b-xl">Don't watch keyboard  while playing...</p>
+                        <p class="text-white bg-[#2F2941] px-6 pb-4 rounded-b-xl">Don't watch keyboard while playing...
+                        </p>
                     </div>
                     <div class="flex justify-center items-center h-full">
                         <p id="random-letter" class="text-black text-9xl font-bold uppercase">Y</p>
                     </div>
                 </div>
-                
+
                 <!-- keyboard start-->
                 <div>
                     <div class="flex justify-center gap-1 my-1 w-full">
@@ -69,7 +71,7 @@
                         <kbd id="j" class="kbd">j</kbd>
                         <kbd id="k" class="kbd">k</kbd>
                         <kbd id="l" class="kbd">l</kbd>
-                     </div>
+                    </div>
                     <div class="flex justify-center gap-1 my-1 w-full">
                         <kbd id="z" class="kbd">z</kbd>
                         <kbd id="x" class="kbd">x</kbd>
@@ -79,8 +81,8 @@
                         <kbd id="n" class="kbd">n</kbd>
                         <kbd id="m" class="kbd">m</kbd>
                         <kbd id="/" class="kbd">/</kbd>
-                     </div>
-                 </div>
+                    </div>
+                </div>
                 <!-- keyboard end-->
                 <!-- lifeline & score -->
                 <div class="flex justify-between w-3/4">
@@ -88,12 +90,12 @@
                         Life
                         <img src="images/Group 23.svg" alt="">
                         <span id="life">5</span>
-                      </button>
-                      <button class="btn rounded-full bg-blue-700 rounded-rl border-none">
+                    </button>
+                    <button class="btn rounded-full bg-blue-700 rounded-rl border-none">
                         Score
                         <img src="images/monetization_on.svg" alt="">
                         <span id="score">0</span>
-                      </button>
+                    </button>
                 </div>
             </div>
         </section>
@@ -109,9 +111,23 @@
                 <P>Practice will make you Pro</P>
             </div>
         </section>
+        <!-- modal -->
+        <!-- You can open the modal using ID.showModal() method -->
+        <!-- <section>
+            <button class="btn" onclick="my_modal_3.showModal()">open modal</button>
+            <dialog id="my_modal_3" class="modal">
+                <div class="modal-box">
+                    <form method="dialog">
+                        <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+                    <h3 class="font-bold text-lg">Hello!</h3>
+                    <p class="py-4">Press ESC key or click on ✕ button to close</p>
+                </div>
+            </dialog>
+        </section> -->
     </main>
     <script>
-         
+
     </script>
     <script src="js/utility.js"></script>
     <script src="js/function.js"></script>
